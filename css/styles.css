@@ -18,6 +18,7 @@ p {
 
 /* Headings */
 .big-heading {    
+    margin-top: 20px;
     font-size: 3.5rem;     
     line-height: 1.5; 
 }
@@ -53,7 +54,10 @@ p {
 
 /* Navigation Bar */
 .navbar {
-    padding: 0 8rem 4.5rem;
+    padding: 0 1rem 1rem;
+    background-color: #ff9f68;
+    border-radius: 20px;
+    border-width: 2 rem;
 }
 
 .navbar-brand {
@@ -79,9 +83,10 @@ p {
 
 /* Title Section */
 .title-image {
-    max-width: 60%;
-    transform: rotate(25deg);
+    max-width: 40%;
+    transform: rotate(15deg);
     position: absolute;
+    margin-top: 40px;
 }
 
 /* Features Section */
