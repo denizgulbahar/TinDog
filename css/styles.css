@@ -107,3 +107,66 @@ p {
 .fa-solid:hover {
     color: #ff4c68;
 }
+
+/* Testimonial Section */
+#testimonials {       
+    background-color: #ef8178;                   
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;                              
+}
+
+/* Press Section */
+#press {
+    padding: 3%;
+    background-color: #ef8178; 
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Responsive Design */
+@media (max-width: 1040px) {                   
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+/* Footer */
+.footer-link {
+    font-size: 2.5rem;
+}
+
